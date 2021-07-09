@@ -1,28 +1,12 @@
 {
-  "name": "noa-examples",
-  "version": "0.1.0",
-  "description": "Starter examples of game worlds using the noa voxel engine",
+  "name": "clicoder",
+  "version": "0.0.0",
+  "description": "Starter code",
   "scripts": {
-    "start": "cd src/hello-world && webpack serve",
-    "test": "cd src/test && webpack serve",
-    "build1": "rm -f docs/test/*.js*; cd src/test && webpack --env prod",
-    "build2": "rm -f docs/hello-world/*.js*; cd src/hello-world && webpack --env prod",
-    "build": "npm run build1 && npm run build2"
+    "start": "cd src/main-code && webpack serve",
+    "build": "rm -f docs/hello-world/*.js*; cd src/hello-world && webpack --env prod"
   },
-  "keywords": [
-    "noa-engine",
-    "noa",
-    "voxel",
-    "game",
-    "engine",
-    "example"
-  ],
-  "author": "Andy Hall",
-  "license": "ISC",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/andyhall/noa-examples.git"
-  },
+  "author": "me",
   "dependencies": {
     "@babylonjs/core": "^4.2.0",
     "@babylonjs/inspector": "^4.2.0",
